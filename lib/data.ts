@@ -402,7 +402,7 @@ export const projects: Project[] = [
   {
     slug: "my-sleepwell",
     name: "My Sleepwell",
-    url: "https://mysleepwell.com/",
+    url: "https://www.mysleepwell.com/",
     year: "2024",
     category: "commerce",
     tags: ["D2C", "Magic Checkout", "Shiprocket"],

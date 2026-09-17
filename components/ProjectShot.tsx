@@ -54,6 +54,12 @@ export function ProjectShot({
             className="h-full w-full object-cover object-top"
             loading={priority ? "eager" : "lazy"}
             onError={() => setFailed(true)}
+            onLoad={(event) => {
+              const image = event.currentTarget;
+              if (image.naturalWidth < 400 || image.naturalHeight < 200) {
+                setFailed(true);
+              }
+            }}
           />
         )}
       </div>

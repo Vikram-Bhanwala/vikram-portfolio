@@ -45,12 +45,13 @@ export function Hero() {
 
       <div className="relative mt-8 grid items-center gap-8 sm:mt-12 md:grid-cols-2 md:gap-10 lg:mt-14 lg:grid-cols-[1.15fr_0.85fr] lg:gap-12">
         <div className="order-2 min-w-0 md:order-1">
-          <h1 className="font-display max-w-5xl text-[clamp(2.1rem,10vw,7.4rem)] leading-[0.92] tracking-[-0.03em]">
-            Full stack
-            <br />
-            for brands
-            <br />
-            that ship.
+          <h1 className="font-display">
+            <span className="block whitespace-nowrap text-[clamp(2.75rem,14vw,7.2rem)] leading-[0.86] tracking-[-0.045em]">
+              Full stack
+            </span>
+            <span className="mt-2 block whitespace-nowrap text-[clamp(1.2rem,5.5vw,2.85rem)] leading-none tracking-[-0.02em] text-gold italic sm:mt-3">
+              for brands that ship.
+            </span>
           </h1>
           <div className="mt-5 flex flex-wrap items-baseline gap-x-2 gap-y-1 text-base text-mute sm:mt-8 sm:text-xl">
             <span>I’m {site.name.split(" ")[0]}, a</span>
