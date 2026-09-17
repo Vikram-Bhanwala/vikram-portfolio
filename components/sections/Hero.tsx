@@ -50,7 +50,7 @@ export function Hero() {
             <br />
             for brands
             <br />
-            that sell.
+            that ship.
           </h1>
           <div className="mt-5 flex flex-wrap items-baseline gap-x-2 gap-y-1 text-base text-mute sm:mt-8 sm:text-xl">
             <span>I’m {site.name.split(" ")[0]}, a</span>

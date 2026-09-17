@@ -7,7 +7,7 @@ export function Skills() {
       <SectionEyebrow index="02">Capabilities</SectionEyebrow>
       <Reveal>
         <h2 className="font-display display-h2 max-w-3xl">
-          Storefront, checkout, payments, logistics APIs, and the box they run on.
+          Custom websites, CMS, storefronts, checkout, APIs, and the box they run on.
         </h2>
       </Reveal>
       <div className="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 xl:grid-cols-3">

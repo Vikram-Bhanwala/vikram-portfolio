@@ -33,7 +33,7 @@ export function Work() {
       <SectionEyebrow index="03">Selected work</SectionEyebrow>
       <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between lg:gap-8">
         <h2 className="font-display display-h2 max-w-3xl">
-          A few live products. 30+ shipped. Real checkout, not mockups.
+          A few live products. 30+ shipped. Custom sites, CMS, and commerce — not mockups.
         </h2>
         <div className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
           {filters.map((item) => (
@@ -153,7 +153,7 @@ export function Work() {
           </div>
           <p className="max-w-md text-sm leading-6 text-mute">
             Selected case studies above. These are more production sites from the same full stack
-            practice — commerce, corporate, education, and industrial.
+            practice — custom websites, CMS, commerce, corporate, education, and industrial.
           </p>
         </div>
         <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">

@@ -4,7 +4,7 @@ export const site = {
   role: "Full Stack Developer",
   headline: "I build the digital systems brands run on.",
   subhead:
-    "Full stack developer in Gurugram. Custom Shopify and WordPress themes and plugins, storefronts, APIs, faster checkout (Magic Checkout, Shiprocket), payment gateways, and AWS — end to end.",
+    "Full stack developer in Gurugram. Custom websites, CMS platforms, Shopify and WordPress themes and plugins, storefronts, APIs, faster checkout (Magic Checkout, Shiprocket), payment gateways, and AWS — end to end.",
   location: "Gurugram, India",
   timezone: "Asia/Kolkata",
   timezoneLabel: "IST",
@@ -19,12 +19,12 @@ export const site = {
   companyRole: "Full Stack Developer",
   years: "6+",
   summary:
-    "Full Stack Developer with 6+ years building scalable web applications, eCommerce platforms, and REST APIs. Strong in PHP, Node.js, Express, Next.js, MVC, and microservices. I build full custom Shopify themes, custom WordPress themes and plugins, faster checkout, payment gateways, third-party APIs, and AWS deploys.",
+    "Full Stack Developer with 6+ years building scalable web applications, custom websites, CMS platforms, eCommerce, and REST APIs. Strong in PHP, Node.js, Express, Next.js, MVC, and microservices. I ship custom sites from scratch, admin CMS, Shopify and WordPress themes and plugins, faster checkout, payment gateways, third-party APIs, and AWS deploys.",
   roles: [
     "Full Stack Developer",
-    "Backend Engineer",
+    "Custom Web Developer",
+    "CMS Developer",
     "eCommerce Engineer",
-    "Theme & Plugin Engineer",
   ],
 } as const;
 
@@ -54,13 +54,23 @@ export const skillGroups = [
     items: ["Next.js", "React", "JavaScript", "AJAX", "PWA"],
   },
   {
-    title: "Commerce",
+    title: "Platforms",
     items: [
+      "Custom websites",
+      "Custom CMS",
       "Shopify",
-      "Custom Shopify themes",
+      "WordPress",
       "WooCommerce",
+      "Headless / Next.js",
+    ],
+  },
+  {
+    title: "Themes & plugins",
+    items: [
+      "Custom Shopify themes",
       "Custom WP themes",
       "Custom WP plugins",
+      "Shopify extensions",
     ],
   },
   {
@@ -93,10 +103,14 @@ export const skillGroups = [
 ] as const;
 
 export const marquee = [
+  "Custom websites",
+  "Custom CMS",
   "PHP",
   "Node.js",
   "Express",
   "Next.js",
+  "Shopify",
+  "WordPress",
   "Custom Shopify themes",
   "Custom WordPress themes",
   "WordPress plugins",
@@ -123,9 +137,10 @@ export const experience = [
     points: [
       "Designed scalable backend systems using PHP, Node.js, and Express.",
       "Built REST APIs following MVC and microservice architecture.",
+      "Shipped custom websites from scratch — corporate, brand, education, and industrial — not only storefronts.",
+      "Developed custom CMS platforms so teams can manage content, catalogues, and pages without a developer.",
       "Built full custom Shopify themes and custom WordPress themes from scratch — not child-theme restyles.",
       "Created custom WordPress plugins and Shopify theme/app extensions for catalogues, checkout, and admin.",
-      "Developed custom CMS platforms and high-traffic commerce storefronts.",
       "Implemented faster checkout with Razorpay Magic Checkout, Shiprocket, and shipping APIs.",
       "Integrated payment gateways including Razorpay, Stripe, PhonePe, PayU, and Cashfree.",
       "Connected third-party APIs for logistics, WhatsApp, SMS, maps, and webhooks.",
@@ -167,7 +182,7 @@ export const process = [
   {
     step: "01",
     title: "Map the brief",
-    body: "Business goals, catalogue shape, traffic, and the systems already in play. I write the architecture before a line of storefront UI.",
+    body: "Business goals, content, catalogue, traffic, and the systems already in play. I write the architecture before a line of website UI.",
   },
   {
     step: "02",
@@ -177,7 +192,7 @@ export const process = [
   {
     step: "03",
     title: "Build & integrate",
-    body: "Custom Shopify / WordPress themes and plugins, PHP or Node services, Next.js surfaces, Magic Checkout, Shiprocket, payment gateways, and admin tools the team can actually run.",
+    body: "Custom websites and CMS, Shopify / WordPress themes and plugins, PHP or Node services, Next.js surfaces, Magic Checkout, Shiprocket, payment gateways, and admin tools the team can actually run.",
   },
   {
     step: "04",
@@ -188,8 +203,12 @@ export const process = [
 
 export const services = [
   {
-    title: "Full stack commerce",
-    body: "Catalogues, carts, custom sizing, EMI, and storefronts that hold under campaign traffic — Shopify, headless, or custom PHP / Node.",
+    title: "Custom websites & CMS",
+    body: "From-scratch PHP, Node, and Next.js sites with a CMS the team can run — pages, blogs, catalogues, forms, and admin. Corporate, education, industrial, and brand sites, not only shops.",
+  },
+  {
+    title: "Shopify, WordPress & commerce",
+    body: "Custom Shopify and WordPress themes and plugins, WooCommerce, headless storefronts, and custom PHP / Node commerce — catalogues, carts, and campaign traffic included.",
   },
   {
     title: "Faster checkout",
@@ -197,18 +216,18 @@ export const services = [
   },
   {
     title: "Payments & APIs",
-    body: "Razorpay, Stripe, PhonePe, PayU, Cashfree, WhatsApp, SMS, maps, and logistics webhooks wired into the order pipeline.",
-  },
-  {
-    title: "Custom themes & plugins",
-    body: "Full custom Shopify themes and WordPress themes from scratch, plus custom WordPress plugins and Shopify extensions — catalogue, checkout, and admin, not a bought theme with a logo swap.",
+    body: "Razorpay, Stripe, PhonePe, PayU, Cashfree, WhatsApp, SMS, maps, and logistics webhooks wired into the order pipeline — or into a custom CMS and website.",
   },
 ] as const;
 
 export const faqs = [
   {
     q: "What do you actually specialise in?",
-    a: "Full stack. PHP, Node.js, Express, Next.js, custom Shopify themes, custom WordPress themes and plugins, MySQL / MongoDB, Redis, and AWS. Most of my work is commerce: storefronts, checkout, payments, and logistics.",
+    a: "Full stack. Custom websites, custom CMS, PHP, Node.js, Express, Next.js, Shopify, WordPress (themes and plugins), MySQL / MongoDB, Redis, and AWS. Commerce is a large part of the work — storefronts, checkout, payments, logistics — but I also ship corporate, education, and brand sites end to end.",
+  },
+  {
+    q: "Do you build custom websites and CMS, not only Shopify or WordPress?",
+    a: "Yes. Custom websites from scratch, custom CMS and admin, plus Shopify and WordPress when that is the right stack. Headless Next.js, PHP MVC, and Node services are all in play.",
   },
   {
     q: "Do you build custom Shopify and WordPress themes?",
@@ -220,11 +239,11 @@ export const faqs = [
   },
   {
     q: "Which payment gateways have you shipped?",
-    a: "Razorpay, Stripe, PhonePe, PayU, and Cashfree — including UPI, cards, EMI, and retry flows. I also wire WhatsApp, SMS, and maps APIs around the order.",
+    a: "Razorpay, Stripe, PhonePe, PayU, and Cashfree — including UPI, cards, EMI, and retry flows. I also wire WhatsApp, SMS, and maps APIs around the order or the CMS.",
   },
   {
     q: "How do you usually engage?",
-    a: "As a full stack developer at The Brand Bee, or directly on a scoped build. I prefer end-to-end ownership: architecture, checkout, APIs, deploy.",
+    a: "As a full stack developer at The Brand Bee, or directly on a scoped build. I prefer end-to-end ownership: architecture, CMS, website or storefront, APIs, deploy.",
   },
   {
     q: "How do I reach you?",

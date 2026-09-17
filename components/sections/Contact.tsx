@@ -42,7 +42,7 @@ export function Contact() {
       <div className="grid min-w-0 gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-12">
         <div className="min-w-0">
           <h2 className="font-display display-h2">
-            Have a store that needs faster checkout, payments, or a real full stack build?
+            Have a custom website, CMS, store, or a real full stack build?
           </h2>
           <p className="mt-6 max-w-xl text-base leading-7 text-mute sm:text-lg sm:leading-8">
             Send the brief. Call {formatPhoneDisplay(site.phone)} or email — I reply from Gurugram, usually the same working day.
@@ -88,7 +88,7 @@ export function Contact() {
             <span className="font-mono text-[10px] tracking-[0.22em] text-mute uppercase">Project</span>
             <input
               name="project"
-              placeholder="Magic Checkout, Shiprocket, PWA, API…"
+              placeholder="Custom website, CMS, Shopify, WordPress, API…"
               className="mt-2 w-full border-b border-line bg-transparent py-3 text-base outline-none placeholder:text-mute/50 focus:border-gold"
             />
           </label>

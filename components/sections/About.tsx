@@ -25,14 +25,14 @@ export function About() {
         <div className="min-w-0">
           <Reveal>
             <h2 className="font-display display-h2 max-w-3xl tracking-tight">
-              Full stack from the API to a custom theme — and the checkout in between.
+              Full stack from the API to a custom website — CMS, themes, and checkout included.
             </h2>
             <p className="mt-6 max-w-2xl text-base leading-7 text-mute sm:mt-8 sm:text-lg sm:leading-8">
               {site.summary}
             </p>
             <p className="mt-4 max-w-2xl text-base leading-7 text-mute sm:mt-5 sm:leading-8">
-              At {site.company} I work as a full stack developer on live commerce and brand
-              platforms: custom Shopify and WordPress themes and plugins, REST APIs, Razorpay Magic
+              At {site.company} I work as a full stack developer on live products: custom websites,
+              CMS platforms, Shopify and WordPress themes and plugins, REST APIs, Razorpay Magic
               Checkout, Shiprocket, payment gateways, and AWS.
             </p>
           </Reveal>

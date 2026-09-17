@@ -47,6 +47,10 @@ export const metadata: Metadata = {
   keywords: [
     "Vikram Bhanwala",
     "Full Stack Developer",
+    "Custom website",
+    "CMS",
+    "Shopify",
+    "WordPress",
     "PHP",
     "Node.js",
     "Next.js",
